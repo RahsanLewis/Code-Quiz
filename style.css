@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#question {
+    display: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#startBtn {
+    background-color: lightgreen;
+}
+
+#answerBtn {
+    display: none;
+    background-color: lightblue;
+}
+
+#gameOver {
+    display: none;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: lightblue;
+}
