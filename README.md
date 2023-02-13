@@ -29,7 +29,7 @@ Deployment link: https://rahsanlewis.github.io/Rahsans-Code-Quiz/
 
 ## Usage
 
-Use the navigation bar to explore the webpage and view all of the different wepages i've developed.
+Answer javascript questions to get the highest score.
 
 ![Screenshot](./images/codingquizpic.jpg)
 
