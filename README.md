@@ -25,13 +25,13 @@ THEN I can save my initials and score
 
 ## Installation
 
-Deployment link:
+Deployment link: https://rahsanlewis.github.io/Rahsans-Code-Quiz/
 
 ## Usage
 
 Use the navigation bar to explore the webpage and view all of the different wepages i've developed.
 
-![Screenshot]()
+![Screenshot](./images/codingquizpic.jpg)
 
 ## Credits
 
