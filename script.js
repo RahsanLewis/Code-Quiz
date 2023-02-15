@@ -65,24 +65,9 @@ window.onload = function () {
     ];
 
 
+    startBtn.addEventListener("click", startGame);
+    saveBtn.addEventListener("click", saveScore);
 
-    if (startBtn) {
-        startBtn.addEventListener("click", startGame);
-    } else {
-        console.error("Start button element not found");
-    }
-
-    if (answerBtn) {
-        answerBtn.addEventListener("click", checkAnswer);
-    } else {
-        console.error("answer button element not found");
-    }
-
-    if (saveBtn) {
-        saveBtn.addEventListener("click", saveScore);
-    } else {
-        console.error("save button element not found");
-    }
 
     console.log(questions.length);
 
@@ -118,6 +103,7 @@ window.onload = function () {
 
         if (!currentQuestion) {
             console.error("currentQuestion not found");
+            endGame();
             return;
         }
 
